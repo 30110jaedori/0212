@@ -1,0 +1,50 @@
+1.
+#include<stdio.h>
+int main(){
+	int a=0, sum=0;
+	
+	while(a<=10){
+		a++;
+		if(a%2 == 0)
+			continue;
+			sum += a;
+	}
+	printf("sum = %d", sum);
+	
+	return 0;
+}
+
+
+
+
+
+
+
+
+2.
+#include <stdio.h>
+int main(void){
+	char text = 'A';
+	int i  = 1;
+	
+	do{
+		printf("%c", text);
+	}while(i<1);
+}
+
+
+
+
+
+
+
+3.
+#include <stdio.h>
+int main(void){
+	int i=1;
+	
+	do{
+		i++;
+	}while (i<10);
+	printf("%d", (i*4));
+}
